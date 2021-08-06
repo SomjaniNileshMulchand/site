@@ -1,0 +1,153 @@
+/* changed */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+}
+.website{
+    color: rgb(10, 209, 235);
+    font-size: 70px; 
+}
+h1,h2 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul li{
+    margin: 10px;   
+}
+ul>li>a:hover{
+    color:white;
+}
+li {
+    list-style-type: none;
+}
+#photo{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    clip-path: ellipse(1310px 900px at 100% 140%);
+
+} 
+.df{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+.df:hover{
+    background: linear-gradient(rgb(112, 107, 108),rgb(223, 223, 167));
+}
+.ce{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(213, 238, 70, 0.329);
+}
+.ce:hover{
+    background: linear-gradient(rgb(43, 41, 44),rgb(62, 170, 120));
+}
+img{
+    border-radius: 40px;
+}
+.sit {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.tion {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;      
+    height: auto;
+}
+.age:hover{
+    text-align: center;
+    font-size: 40px;
+    mix-blend-mode: difference;
+}
+.abcd>img>p{
+    background-color: rgba(37, 228, 20, 0.918);
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+.chri{
+    width: 25rem;
+    height: 40vh;
+}
+.ben{
+    width: 400px;
+    height: 300px;
+
+}
+.math{
+    width: 400px;
+    height: 300px;
+}
+.jona{
+    width: 400px;
+    height: 300px;
+
+}
+.raen{
+    width: 400px;
+    height: 300px;
+
+}
+.jann{
+    width: 400px;
+    height: 300px;
+
+}
+.arti{
+    width: 400px;
+    height: 300px;
+
+}
+
+@media (max-width:1400px) {
+    .website .chri .age{
+        text-align: center;
+   }       
+}
+
+@media  (max-width:1400px) {
+    #photo{
+        display: block;
+   }       
+}
+
+@media (max-width:1400px) {
+    .age{
+        text-align: center;
+    }
+}
+/* @media (max-width:1400px) {
+    .media{
+        display: block;
+        align-items: center;
+
+    }
+    
+} */
+@media (max-width:1100px) {
+    div .media{
+        display: block;
+        align-items:center;
+        background-color: cadetblue;
+    }
+    
+}
+
+
