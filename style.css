@@ -37,11 +37,9 @@ li {
     width: 100%;
     height: auto;
 }
-#photo{
+/* #photo{
     clip-path: ellipse(1300px 940px at 90% 100%);
-    
-    
-} 
+}  */
 .df{
     display: flex;
     justify-content: space-around;
